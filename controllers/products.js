@@ -48,8 +48,6 @@ const getAllProducts = async (req, res) => {
         })
 
     }   
-    
-    console.log(queryObject)
     let result = Product.find(queryObject)  
 
     if (sort) {
